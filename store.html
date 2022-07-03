@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Project</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="store.js" ></script>
+    </head>
+
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+            </nav>
+            <h1 class="groceries-name groceries-name-large">Order your food</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">FOOD</h2>
+
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Pizza</span>
+                    <img class="shop-item-image" src="images/pizza.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">12,5 DTN
+
+                        </span>
+                            <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <Button  onclick="ou()" id="btnh1" class="btn1">♥</Button>
+                            
+                        
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Humburger</span>
+                    <img class="shop-item-image" src="images/humburger.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">15 DTN</span>
+                        <button class="stn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou2()" id="btnh2" class="btn1">♥</Button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ciabatta</span>
+                    <img class="shop-item-image" src="images/ciabatta.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">9 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou3()" id="btnh3" class="btn1">♥</Button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Salad</span>
+                    <img class="shop-item-image" src="images/salad.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">5 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou4()" id="btnh4" class="btn1">♥</Button>
+                        
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Fries</span>
+                    <img class="shop-item-image" src="images/fries.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou5()" id="btnh5" class="btn1">♥</Button>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-header">DRINKS</h2>
+            
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Orange juice</span>
+                    <img class="shop-item-image" src="images/orangejuce.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">4.3 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou6()" id="btnh6" class="btn1">♥</Button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Lemonade</span>
+                    <img class="shop-item-image" src="images/lemonjuce.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3.7 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou7()" id="btnh7" class="btn1">♥</Button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Water</span>
+                    <img class="shop-item-image" src="images/water.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">1.7 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou8()" id="btnh8" class="btn1">♥</Button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Soda</span>
+                    <img class="shop-item-image" src="images/soda.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3.3 DTN</span>
+                        <button class="tn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        <Button  onclick="ou9()" id="btnh9" class="btn1">♥</Button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">0 DTN</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">ORDER</button>
+        </section>
+    </body>
+
+</html>
